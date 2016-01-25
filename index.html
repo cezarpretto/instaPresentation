@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Insta Presentation</title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="styles/main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body ng-app="instaPresentation">
+    <div>
+      <div ng-view="" autoscroll="true">
+      </div>
+    </div>
+    <!-- Bower components -->
+    <script src="bower_components/angular/angular.min.js" charset="utf-8"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+
+    <!-- Imports -->
+    <script src="scripts/app.js" charset="utf-8"></script>
+    <script src="scripts/controllers/mainController.js" charset="utf-8"></script>
+    <script src="scripts/controllers/slideController.js" charset="utf-8"></script>
+    <script src="scripts/services/PicService.js" charset="utf-8"></script>
+  </body>
+</html>

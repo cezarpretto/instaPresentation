@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-sm-4 col-sm-offset-4 text-center text-white">
+    <h1>Insta Presentation</h1>
+  </div>
+</div>
+<div class="row">
+  <form name="frmHash" ng-submit="main.go()">
+    <div class="col-sm-4 col-sm-offset-4">
+      <div class="input-group">
+        <span class="input-group-addon">Digite a Hashtag:</span>
+        <input type="text" class="form-control" placeholder="Digite a Hashtag" required="required" ng-model="main.hashtag">
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary btn-block" ng-disabled="frmHash.$invalid">
+        Iniciar
+      </button>
+    </div>
+  </form>
+</div>

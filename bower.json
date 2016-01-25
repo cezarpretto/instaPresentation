@@ -1,0 +1,22 @@
+{
+  "name": "instaPresentation",
+  "authors": [
+    "Cezar Vinícius de O. Pretto <cezar@planosassessoria.com.br>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9",
+    "angular-route": "~1.4.9"
+  }
+}
