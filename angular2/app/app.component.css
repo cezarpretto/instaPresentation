@@ -1,0 +1,12 @@
+.navbar-default {
+    background-color: rgb(21, 101, 192);
+    border-color: rgb(21, 101, 192);
+}
+.navbar-default .navbar-nav>li>a{
+    color: rgba(255, 255, 255, 0.87);
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: rgba(82, 170, 187, 0.87);
+    background-color: transparent;
+}
