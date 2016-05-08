@@ -1,0 +1,27 @@
+body{
+    padding-top: 1.5%;
+    background-color: #000;
+    width: 98%;
+}
+
+.text-white{
+    color: #FFF;
+}
+
+.img-slide{
+    width: 60%;
+    height: 100%;
+    top: 10%;
+    border: 10px solid #FFF;
+}
+
+.title-box {
+    padding: 10px;
+    width: 100%;
+    background-color: #FFF;
+}
+teste{
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
